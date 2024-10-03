@@ -23,8 +23,15 @@ namespace WPL1_login_test
 
         private void loginButton_Click(object sender, RoutedEventArgs e)
         {
-
-        }
+            if (nameTextBox.Text == "Admin" && passwordTextBox.Text == "Admin")
+            {
+                statusTextBlock.Text = "U wordt ingelogt.";
+            }
+            else
+            {
+                statusTextBlock.Text = "Foute accountnaam of passwoord.";
+            }
+        } 
 
         private void logoutButton_Click(object sender, RoutedEventArgs e)
         {
