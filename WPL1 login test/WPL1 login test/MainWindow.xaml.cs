@@ -35,7 +35,9 @@ namespace WPL1_login_test
 
         private void logoutButton_Click(object sender, RoutedEventArgs e)
         {
-
+            statusTextBlock.Text = "";
+            nameTextBox.Text = "";
+            passwordTextBox.Text = "";
         }
     }
 }

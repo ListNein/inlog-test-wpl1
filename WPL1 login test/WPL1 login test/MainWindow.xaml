@@ -9,8 +9,8 @@
     <Grid>
         <Label Content="Naam" HorizontalAlignment="Left" Margin="174,113,0,0" VerticalAlignment="Top"/>
         <Label Content="Wachtwoord" HorizontalAlignment="Left" Margin="174,165,0,0" VerticalAlignment="Top"/>
-        <TextBox Name="nameTextBox" HorizontalAlignment="Left" Margin="323,117,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox Name="passwordTextBox" HorizontalAlignment="Left" Margin="323,169,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="nameTextBox" HorizontalAlignment="Left" Margin="323,117,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="passwordTextBox" HorizontalAlignment="Left" Margin="323,169,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <Button Name="loginButton" Content="Inloggen" HorizontalAlignment="Left" Margin="195,230,0,0" VerticalAlignment="Top" Height="36" Width="97" Click="loginButton_Click"/>
         <Button Name="logoutButton" Content="Afmelden" HorizontalAlignment="Left" Margin="303,230,0,0" VerticalAlignment="Top" Height="36" Width="97" Click="logoutButton_Click"/>
         <TextBlock Name="statusTextBlock" HorizontalAlignment="Left" Margin="272,204,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
